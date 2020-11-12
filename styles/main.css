@@ -1,0 +1,14 @@
+.interest {
+	border: 1px dotted crimson;
+	padding: 1em;
+	margin:0.5em;
+	flex-basis: 16%; /*make each child element the same width*/
+	text-align: center;
+}
+
+.bio__interests {
+	display: flex; /* display the child items in a flex layout */
+	flex-wrap: wrap; /* let the rows wrap if there are too many*/
+	justify-content: space-evenly;
+
+}
